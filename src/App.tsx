@@ -1,7 +1,9 @@
 function App() {
 	return (
-		<div className="App">
-			<div className="text-red-300">coucou</div>
+		<div className="App bg-[#f4f5fe] h-screen font-quicksand">
+			<head>
+				<title>Technofy</title>
+			</head>
 		</div>
 	)
 }
