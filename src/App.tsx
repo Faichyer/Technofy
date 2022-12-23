@@ -1,9 +1,13 @@
+import Navbar from './components/Navbar'
+import Player from './pages/Player'
+
 function App() {
 	return (
 		<div className="App bg-[#f4f5fe] h-screen font-quicksand">
-			<head>
-				<title>Technofy</title>
-			</head>
+			<div className="flex flex-row">
+				<Navbar />
+				<Player />
+			</div>
 		</div>
 	)
 }
